@@ -4,7 +4,7 @@
 // fetch("http://localhost:5000/...") everywhere, components just import
 // these functions. If the backend URL ever changes, you edit ONE file.
 
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://landscape-india-backend.onrender.com/api"
 
 export async function fetchLands(filters = {}) {
   const params = new URLSearchParams(filters).toString();
